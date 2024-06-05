@@ -1,0 +1,184 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.screen {
+  background-color: #161828;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .overlap-wrapper {
+  background-color: #161828;
+  width: 1920px;
+  height: 1321px;
+}
+
+.screen .overlap {
+  position: relative;
+  width: 1919px;
+  height: 1321px;
+  background-image: url(https://c.animaapp.com/DVH6FMsV/img/image-23.png);
+  background-size: 100% 100%;
+}
+
+.screen .content-wrapper {
+  position: absolute;
+  width: 1059px;
+  height: 827px;
+  top: 215px;
+  left: 431px;
+  border-right-width: 1.5px;
+  border-right-style: solid;
+  border-color: #252835;
+}
+
+.screen .div {
+  position: absolute;
+  width: 1059px;
+  height: 827px;
+  top: 215px;
+  left: 431px;
+}
+
+.screen .rectangle {
+  top: 469px;
+  position: absolute;
+  width: 451px;
+  height: 54px;
+  left: 734px;
+  background-color: #ffffff;
+}
+
+.screen .text-wrapper {
+  top: 480px;
+  left: 758px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .rectangle-2 {
+  top: 564px;
+  position: absolute;
+  width: 451px;
+  height: 54px;
+  left: 734px;
+  background-color: #ffffff;
+}
+
+.screen .text-wrapper-2 {
+  top: 575px;
+  left: 749px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group {
+  position: absolute;
+  width: 179px;
+  height: 54px;
+  top: 673px;
+  left: 744px;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 177px;
+  height: 54px;
+  background-color: #ffffff;
+}
+
+.screen .text-wrapper-3 {
+  top: 13px;
+  left: 12px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-group-wrapper {
+  position: absolute;
+  width: 168px;
+  height: 54px;
+  top: 673px;
+  left: 1009px;
+}
+
+.screen .div-wrapper {
+  position: relative;
+  width: 166px;
+  height: 54px;
+  background-color: #ffffff;
+}
+
+.screen .text-wrapper-4 {
+  top: 13px;
+  left: 52px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-2 {
+  position: absolute;
+  width: 164px;
+  height: 137px;
+  top: 301px;
+  left: 878px;
+}
+
+.screen .text-wrapper-5 {
+  position: absolute;
+  width: 162px;
+  top: 103px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .element {
+  position: absolute;
+  width: 141px;
+  height: 103px;
+  top: 0;
+  left: 3px;
+}/*# sourceMappingURL=av.css.map */
