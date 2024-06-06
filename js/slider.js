@@ -76,23 +76,43 @@ blockSlider.addEventListener('mouseleave',()=>{
 
 
 
+
 document.addEventListener("DOMContentLoaded", function() {
-    const modal = document.getElementById("modal");
-    const openModalButton = document.getElementById("openModalButton");
-    const openModalButton2 = document.getElementById("openModalButton2");
-    const closeModalButton = document.getElementById("closeModalButton");
-
-    openModalButton.addEventListener("click", function() {
-        modal.style.display = "block";
-    });
-    openModalButton2.addEventListener("click", function() {
-        modal.style.display = "block";
+    const button = document.getElementById("shineButton");
+    const button2 = document.getElementById("openModalButton");
+    const button3 = document.getElementById("openModalButton2");
+    const button4 = document.getElementById("shineButton2");
+    
+    button.addEventListener("mouseenter", function() {
+        button.classList.add("shine-effect");
     });
 
- 
-    window.addEventListener("click", function(event) {
-        if (event.target === modal) {
-            modal.style.display = "none";
-        }
+    button.addEventListener("mouseleave", function() {
+        button.classList.remove("shine-effect");
+    });
+    button2.addEventListener("mouseenter", function() {
+        button2.classList.add("shine-effect");
+    });
+
+    button2.addEventListener("mouseleave", function() {
+        button2.classList.remove("shine-effect");
+    });
+    button3.addEventListener("mouseenter", function() {
+        button3.classList.add("shine-effect");
+    });
+
+    button3.addEventListener("mouseleave", function() {
+        button3.classList.remove("shine-effect");
+    });
+    button4.addEventListener("mouseenter", function() {
+        button4.classList.add("shine-effect");
+    });
+
+    button4.addEventListener("mouseleave", function() {
+        button4.classList.remove("shine-effect");
     });
 });
+
+
+
+

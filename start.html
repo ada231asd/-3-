@@ -19,7 +19,7 @@
             <div class="text-wrapper-2"><a href="/gal.html">Галерея</a></div>
             <div class="text-wrapper-3"><a href="/mag.html">Цены</a></div>
             <div class="text-wrapper-4"><a href="/graf.html">Расписание</a></div>
-            <div class="text-wrapper-5"><a href="/start.html">Новости</a></div>
+            <div class="text-wrapper-5"><a href="#news" id="per_news">Новости</a></div>
             <div class="text-wrapper-6"><a href="/contakt.html">Контакты</a></div>
           </div>
           <a href="/av/reg/av.html"><img class="icon" src="/img/icon.svg" /></a>
@@ -41,10 +41,10 @@
           <div class="text-wrapper-11">BLACK ROCK SHOOTER</div>
           <img class="image-2" src="/img/image-29.png" />
           <div class="overlap-group-wrapper">
-            <div class="overlap-group"><div class="text-wrapper-12">Начать игру</div></div>
+            <a href="/graf.html"><div class="overlap-group style_button" id="shineButton"><div class="text-wrapper-12">Начать игру</div></div></a>
           </div>
           <div class="overlap-wrapper">
-            <a href="/gal.html"><div class="overlap-group"><div class="text-wrapper-13">Больше</div></div></a>
+            <a href="/gal.html"><div class="overlap-group style_button" id="shineButton2"><div class="text-wrapper-13">Больше</div></div></a>
           </div>
           <div class="div-wrapper">
             <div class="overlap-2">
@@ -61,10 +61,6 @@
 <div class="text-wrapper-16">Невероятная атмосфера</div>
 <p class="text-wrapper-15">Вы будете погружены в мрачную атмосферу до конца сюжета</p>
                   </div>
-                  
-                  
-                  
-                 
                   <div class="rectangle-8">
                   <img class="frame-2" src="/img/frame-1.svg" />
                   <div class="text-wrapper-18">Играй с друзьями</div>
@@ -74,7 +70,6 @@
               </div>
             </div>
           </div>
-          
           <div class="slider"> <div class="blockSlider" id="blockSlider">
             <div class="FullArea">
                 <div class="imagesArea">
@@ -87,7 +82,6 @@
                     <img class="imageSlider" src="/img/image-26@2x.png" alt="">
                     <img class="imageSlider" src="/img/image-27@2x.png" alt="">
                 </div>
-    
                 <div class="pointsAreaSize">
                     <span class="point"></span>
                     <span class="point"></span>
@@ -104,12 +98,10 @@
                     <div class="blockArrow" id="rightBtn"></div>
                 </div>
             </div></div>
-          
-          
           <div class="text-wrapper-20">О нас</div>
-          <video class="image-7" src="/img/vid/Make A Move [ AMV ].mp4" width="640" height="360" controls>
-            Ваш браузер не поддерживает тег <code>video</code>.
-          </video>
+          <div class="image-7">
+            <iframe src="https://www.youtube.com/embed/rMfe306QFr4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
           <div class="text-wrapper-21">ЧТО ГОВОРЯТ ГЕЙМЕРЫ</div>
           <div class="rectangle-9"></div>
           <div class="text-wrapper-22">Адриан Рэй</div>
@@ -130,15 +122,15 @@
           <img class="image-9" src="/img/image-31@2x.png" />
           <img class="image-10" src="/img/image-32@2x.png" />
           <div class="group-wrapper">
-            <div class="group-3"><div class="text-wrapper-28">Последние новости</div></div>
+            <div class="group-3"><div class="text-wrapper-28" id="news">Последние новости</div></div>
           </div>
           <img class="image-11" src="/img/image-33.png" />
           <img class="image-12" src="/img/image-34.png" />
           <div class="group-4" >
-            <div class="overlap-3" id="openModalButton"><div class="text-wrapper-29">Читать</div></div>
+            <div class="overlap-3 style_button" id="openModalButton"><div class="text-wrapper-29">Читать</div></div>
           </div>
           <div class="group-5" >
-            <div class="overlap-3" id="openModalButton2"><div class="text-wrapper-29">Читать</div></div>
+            <div class="overlap-3 style_button" id="openModalButton2"><div class="text-wrapper-29">Читать</div></div>
           </div>
           <div class="group-6">
             <div class="text-wrapper-30">28.05.2024</div>
@@ -158,5 +150,7 @@
       </div>
   </div>
     <script src="/js/slider.js"></script>
+    <script src="/js/modal.js"></script>
+    <script src="/js/ik.js"></script>
   </body>
 </html>
