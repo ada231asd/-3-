@@ -1,3 +1,5 @@
+$shine-color: rgba(255, 255, 255, 0.8);
+$shine-duration: 2s;
 @font-face {
   font-family: 'Bicubik';
   src: local('Bicubik'), url('/tekst/bicubik.woff2') format('woff2'), url('/tekst/bicubik.woff') format('woff'), url('/tekst/bicubik.ttf') format('truetype');
@@ -254,6 +256,24 @@ a{
   top: 0;
   left: 0;
   object-fit: cover;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, $shine-color, transparent);
+    transform: skewX(-25deg);
+    transition: none;
+}
+
+&.shine-effect::before {
+    animation: shine $shine-duration;
+}
 }
 
 .screen .group-3 {
@@ -615,3 +635,11 @@ a{
 }
 
 
+// .style_button{
+ 
+// }
+@keyframes shine {
+  100% {
+      left: 125%;
+  }
+}

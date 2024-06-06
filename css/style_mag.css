@@ -257,6 +257,23 @@ a {
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.screen .rectangle-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+  transform: skewX(-25deg);
+  transition: none;
+}
+.screen .rectangle-2.shine-effect::before {
+  animation: shine 2s;
 }
 
 .screen .group-3 {
@@ -615,4 +632,10 @@ a {
   font-size: 18px;
   letter-spacing: 4px;
   line-height: normal;
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
 }/*# sourceMappingURL=style_mag.css.map */
