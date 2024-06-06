@@ -1,8 +1,9 @@
-
-let imageSlider = document.getElementById('imageSlider')
+let point = document.querySelectorAll('.point')
+let imageSlider = document.querySelectorAll('.imageSlider')
 let leftBtn = document.getElementById('leftBtn')
 let rightBtn = document.getElementById('rightBtn')
 
+point[0].classList.add('activeImage')
 imageSlider[0].classList.add('activeImage')
 
 let counter = 0;
@@ -10,15 +11,18 @@ let counter = 0;
 for(let i=0; i<point.length; i++){
     point[i].addEventListener('click',()=>{
         for(let k = 0; k<imageSlider.length; k++){
+            point[k].classList.remove('activeImage')
             imageSlider[k].classList.remove('activeImage')
         }
         counter = i;
         imageSlider[counter].classList.add('activeImage');
+        point[counter].classList.add('activeImage');
     })
 }
 
 leftBtn.addEventListener('click',()=>{
     for(let k = 0; k<imageSlider.length; k++){
+        point[k].classList.remove('activeImage')
         imageSlider[k].classList.remove('activeImage')
     }
     counter--
@@ -26,10 +30,12 @@ leftBtn.addEventListener('click',()=>{
         counter = imageSlider.length-1
     }
     imageSlider[counter].classList.add('activeImage');
+    point[counter].classList.add('activeImage');
 })
 
 rightBtn.addEventListener('click',()=>{
     for(let k = 0; k<imageSlider.length; k++){
+        point[k].classList.remove('activeImage')
         imageSlider[k].classList.remove('activeImage')
     }
     counter++
@@ -37,11 +43,13 @@ rightBtn.addEventListener('click',()=>{
         counter = 0
     }
     imageSlider[counter].classList.add('activeImage');
+    point[counter].classList.add('activeImage');
 })
 
 
 function slowSlider () {
     for(let k = 0; k<imageSlider.length; k++){
+        point[k].classList.remove('activeImage')
         imageSlider[k].classList.remove('activeImage')
     }
     counter++
@@ -49,6 +57,7 @@ function slowSlider () {
         counter = 0
     }
     imageSlider[counter].classList.add('activeImage');
+    point[counter].classList.add('activeImage');
 }
 
 let second = 1000*2
@@ -62,3 +71,28 @@ blockSlider.addEventListener('mouseover',()=>{
 blockSlider.addEventListener('mouseleave',()=>{
     TimerImage = setInterval(()=>slowSlider(), second)
 })
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById("modal");
+    const openModalButton = document.getElementById("openModalButton");
+    const openModalButton2 = document.getElementById("openModalButton2");
+    const closeModalButton = document.getElementById("closeModalButton");
+
+    openModalButton.addEventListener("click", function() {
+        modal.style.display = "block";
+    });
+    openModalButton2.addEventListener("click", function() {
+        modal.style.display = "block";
+    });
+
+ 
+    window.addEventListener("click", function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+});

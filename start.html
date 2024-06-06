@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slider.css">
   </head>
   <body>
     <div class="screen">
@@ -74,17 +75,37 @@
             </div>
           </div>
           
-          <div class="slider"><img class="image-3" src="/img/image-24@2x.png" />
-          <img class="image-4" src="/img/image-25@2x.png" />
-          <img class="image-5" src="/img/image-26@2x.png" />
-          <img class="image-6" src="/img/image-27@2x.png" /></div>
+          <div class="slider"> <div class="blockSlider" id="blockSlider">
+            <div class="FullArea">
+                <div class="imagesArea">
+                    <img class="imageSlider" src="/img/image-24@2x.png" alt="">
+                    <img class="imageSlider" src="/img/image-25@2x.png" alt="">
+                    <img class="imageSlider" src="/img/image-26@2x.png" alt="">
+                    <img class="imageSlider" src="/img/image-27@2x.png" alt="">
+                    <img class="imageSlider" src="/img/image-24@2x.png" alt="">
+                    <img class="imageSlider" src="/img/image-25@2x.png" alt="">
+                    <img class="imageSlider" src="/img/image-26@2x.png" alt="">
+                    <img class="imageSlider" src="/img/image-27@2x.png" alt="">
+                </div>
+    
+                <div class="pointsAreaSize">
+                    <span class="point"></span>
+                    <span class="point"></span>
+                    <span class="point"></span>
+                    <span class="point"></span>
+                    <span class="point"></span>
+                    <span class="point"></span>
+                    <span class="point"></span>
+                    <span class="point"></span>
+                </div>
+    
+                <div class="btnsAreaSize">
+                    <div class="blockArrow" id="leftBtn"></div>
+                    <div class="blockArrow" id="rightBtn"></div>
+                </div>
+            </div></div>
           
-          <div class="align-right-wrapper" id="rightBtn">
-            <img class="align-right" src="/img/align-right-02-1.svg" />
-          </div>
-          <div class="img-wrapper" id="leftBtn">
-            <img class="align-right-2" src="/img/align-right-02-2.svg" />
-          </div>
+          
           <div class="text-wrapper-20">О нас</div>
           <video class="image-7" src="/img/vid/Make A Move [ AMV ].mp4" width="640" height="360" controls>
             Ваш браузер не поддерживает тег <code>video</code>.
@@ -113,11 +134,11 @@
           </div>
           <img class="image-11" src="/img/image-33.png" />
           <img class="image-12" src="/img/image-34.png" />
-          <div class="group-4">
-            <div class="overlap-3"><div class="text-wrapper-29">Читать</div></div>
+          <div class="group-4" >
+            <div class="overlap-3" id="openModalButton"><div class="text-wrapper-29">Читать</div></div>
           </div>
-          <div class="group-5">
-            <div class="overlap-3"><div class="text-wrapper-29">Читать</div></div>
+          <div class="group-5" >
+            <div class="overlap-3" id="openModalButton2"><div class="text-wrapper-29">Читать</div></div>
           </div>
           <div class="group-6">
             <div class="text-wrapper-30">28.05.2024</div>
@@ -131,5 +152,11 @@
         <div class="overlap-4"><div class="text-wrapper-32">2024 ©YouPlay. Все права защищены</div></div>
       </div>
     </div>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+          <p>Будет реализовано в будущих обновлениях</p>
+      </div>
+  </div>
+    <script src="/js/slider.js"></script>
   </body>
 </html>
