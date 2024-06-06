@@ -9,7 +9,7 @@ html,
 body {
   margin: 0px;
   height: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 a {
@@ -152,15 +152,15 @@ a {
 
 .screen .img {
   position: absolute;
-  width: 305px;
-  height: 305px;
-  top: 130px;
-  left: 606px;
+  width: 250px;
+  height: 250px;
+  top: 192px;
+  left: 637px;
 }
 
 .screen .text-wrapper-3 {
   width: 102px;
-  top: 646px;
+  top: 596px;
   left: 550px;
   font-weight: 500;
   font-size: 24px;
@@ -186,7 +186,7 @@ a {
 
 .screen .text-wrapper-5 {
   width: 50px;
-  top: 570px;
+  top: 529px;
   left: 550px;
   font-weight: 500;
   font-size: 24px;
@@ -200,10 +200,10 @@ a {
 .screen .overlap-2 {
   position: absolute;
   width: 1322px;
-  height: 314px;
-  top: 890px;
+  height: 250px;
+  top: 682px;
   left: 91px;
-  background-image: url(https://c.animaapp.com/hZO90asP/img/rectangle-47.png);
+  background-image: url(/img/vid/rectangle-47.png);
   background-size: cover;
   background-position: 50% 50%;
 }

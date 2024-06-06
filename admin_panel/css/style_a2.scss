@@ -8,7 +8,7 @@ html,
 body {
   margin: 0px;
   height: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 a {
@@ -203,7 +203,7 @@ a {
     position: absolute;
     width: 362px;
     height: 196px;
-    top: 530px;
+    top: 400px;
     left: 107px;
     background-color: #d9d9d9;
   }
@@ -224,7 +224,7 @@ a {
     position: absolute;
     width: 362px;
     height: 196px;
-    top: 530px;
+    top: 400px;
     left: 559px;
     background-color: #d9d9d9;
   }
@@ -233,7 +233,7 @@ a {
     position: absolute;
     width: 362px;
     height: 196px;
-    top: 530px;
+    top: 400px;
     left: 1014px;
     background-color: #d9d9d9;
   }

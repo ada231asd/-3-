@@ -8,7 +8,7 @@ html,
 body {
   margin: 0px;
   height: 100%;
-  overflow-x: hidden;
+  overflow:hidden;
 }
 
 a {
@@ -146,8 +146,8 @@ a {
   .screen .div-wrapper {
     position: absolute;
     width: 1322px;
-    height: 314px;
-    top: 784px;
+    height: 240px;
+    top: 692px;
     left: 93px;
     background-image: url(https://c.animaapp.com/slBgAnVW/img/rectangle-47.png);
     background-size: cover;
@@ -169,15 +169,15 @@ a {
   
   .screen .mask-group {
     position: absolute;
-    width: 305px;
-    height: 305px;
-    top: 124px;
-    left: 594px;
+    width: 250px;
+    height: 250px;
+    top: 199px;
+    left: 613px;
   }
   
   .screen .text-wrapper-3 {
     width: 102px;
-    top: 640px;
+    top: 605px;
     left: 536px;
     font-weight: 500;
     font-size: 24px;
@@ -204,7 +204,7 @@ a {
   
   .screen .text-wrapper-5 {
     width: 50px;
-    top: 564px;
+    top: 534px;
     left: 538px;
     font-weight: 500;
     font-size: 24px;
