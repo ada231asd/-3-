@@ -315,4 +315,71 @@ a {
   font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .screen .group {
+    left: 25px;
+  }
+  .screen .text-wrapper {
+    top: 4px;
+    font-size: 20px;
+  }
+  .screen .element {
+    top: 2px;
+    width: 35px;
+  }
+  .screen .navbar {
+    left: 235px;
+    top: 17px;
+  }
+  .screen .icon {
+    left: 924px;
+  }
+  .screen .text-wrapper-7 {
+    left: 55px;
+    font-size: 30px;
+  }
+  .screen .group-2 {
+    left: 55px;
+  }
+  .screen .img {
+    width: 358px;
+    height: 402px;
+    left: 55px;
+  }
+  .screen .rectangle-3 {
+    width: 358px;
+    height: 402px;
+    left: 481px;
+  }
+  .screen .group-4 {
+    top: 456px;
+  }
+  .screen .group-5 {
+    top: 907px;
+  }
+  .screen .rectangle-4 {
+    display: none;
+  }
+  .screen .group-6 {
+    top: 1347px;
+  }
+  .screen .group-7 {
+    top: 1795px;
+  }
+  .screen .overlap-group-wrapper {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 2463px;
+    left: -424px;
+  }
+  .screen .rectangle {
+    height: 2472px;
+  }
+  .screen .image {
+    height: 2523px;
+  }
+  .screen .div {
+    height: 2524px;
+  }
 }/*# sourceMappingURL=style_gal.css.map */
