@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    require_once 'connect.php';
+    require_once '../vendor/connect.php';
 
     $login = $_POST['login'];
     $password = md5($_POST['password']);
@@ -16,11 +16,11 @@
             "full_name" => $user['full_name']
         ];
 
-        header('Location: ../profile.php');
+        header('Location: ./profile.php');
 
     } else {
         $_SESSION['message'] = 'Не верный логин или пароль';
-        header('Location: ../index.php');
+        header('Location: av.php');
     }
     ?>
 

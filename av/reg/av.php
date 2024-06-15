@@ -11,7 +11,7 @@
         <form action="/php/signin.php" method="post" class="overlap">
           <div class="content-wrapper"></div>
           <div class="div"></div>
-          <input class="rectangle" id="username" name="username" type="text" placeholder="Логин" required>
+          <input class="rectangle" id="login" name="login" type="text" placeholder="Логин" required>
           <input class="rectangle-2" id="password" name="password" type="password" placeholder="Пароль" required>
           <div class="group">
             <a href="/av/reg/reg.html"></a><button  type="submit" class="overlap-group style_button"><div class="text-wrapper-3">Регистрация</div></button>
