@@ -1,3 +1,5 @@
+$shine-color: rgba(255, 144, 144, 0.8);
+$shine-duration: 2s;
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:400");
 @font-face {
@@ -9,6 +11,8 @@
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+::placeholder {
+  font-size: 24px;}
 html,
 body {
   margin: 0px;
@@ -79,13 +83,30 @@ a {
     line-height: normal;
   }
   
+  input {
+    outline: none;
+    border: 2px solid #ccc; 
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    transition: border-color 0.3s ease; 
+}
+button{
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
   .screen .rectangle-2 {
+    outline: none;
     top: 564px;
     position: absolute;
     width: 451px;
     height: 54px;
     left: 734px;
     background-color: #ffffff;
+    border: none;
   }
   
   .screen .text-wrapper-2 {
@@ -106,6 +127,7 @@ a {
     height: 54px;
     top: 673px;
     left: 744px;
+    
   }
   
   .screen .overlap-group {
@@ -183,4 +205,4 @@ a {
     top: 0;
     left: 3px;
   }
-  
+ 

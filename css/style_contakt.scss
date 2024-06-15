@@ -282,7 +282,16 @@ a {
     width: 990px;
     height: 813px;
     top: 569px;
-    left: 466px;
+    left: 486px;
+    object-fit: cover;
+  }
+  .screen .youplay-1 {
+    display: none;
+    position: absolute;
+    width: 990px;
+    height: 813px;
+    top: 569px;
+    left: 486px;
     object-fit: cover;
   }
   @media screen and (min-width:768px) and (max-width:990px){
@@ -329,6 +338,12 @@ a {
       top: 465px;
     }
     .screen .youplay{
+      display: none;
+      left: 130px;
+      top: 610px;
+    }
+    .screen .youplay-1{
+      display: block;
       left: 130px;
       top: 610px;
     }

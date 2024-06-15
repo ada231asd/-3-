@@ -8,23 +8,20 @@
     <div class="screen">
       <div class="overlap-wrapper">
         <div class="overlap">
-          <div class="content-wrapper"><div class="group">
-            <div class="overlap-group"><div class="text-wrapper">Логин</div></div>
-          </div>
-          <div class="rectangle"></div>
-          <div class="div"></div>
-          <div class="text-wrapper-2">Пароль</div>
-          <div class="text-wrapper-3">Повторите пароль</div>
+          <form action="../../BD/register.php" method="post" class="content-wrapper">
+            <input class="group" id="login" name="login" type="text" placeholder="Логин" required>
+          <input class="rectangle" id="pass" name="pass" type="pass" placeholder="Пароль" required>>
+          <input class="div" id="pass2" name="pass2" type="pass2" placeholder="Повторите Пароль" required>
           <div class="overlap-group-wrapper">
-            <a href="/av/reg/av.html"><div class="div-wrapper"><div class="text-wrapper-4">Отмена</div></div></a>
+            <a href="/av/reg/av.html"><button class="div-wrapper"><div class="text-wrapper-4">Отмена</div></button></a>
           </div>
           <div class="group-2">
-            <div class="overlap-2"><div class="text-wrapper-5">Вход</div></div>
+            <button class="overlap-2"><div class="text-wrapper-5">Вход</div></button>
           </div>
           <div class="group-3">
             <div class="text-wrapper-6">YouPlay</div>
             <a href="/start.html"><img class="element" src="/img/----------1.svg" /></a>
-          </div></div>
+          </div></form>
           
         </div>
       </div>

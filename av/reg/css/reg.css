@@ -45,6 +45,22 @@ a {
   background-size: 100% 100%;
 }
 
+input {
+  outline: none;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 24px;
+  transition: border-color 0.3s ease;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .screen .content-wrapper {
   position: absolute;
   width: 1059px;

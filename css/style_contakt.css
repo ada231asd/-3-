@@ -284,7 +284,18 @@ a {
   width: 990px;
   height: 813px;
   top: 569px;
-  left: 466px;
+  left: 486px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.screen .youplay-1 {
+  display: none;
+  position: absolute;
+  width: 990px;
+  height: 813px;
+  top: 569px;
+  left: 486px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -333,6 +344,12 @@ a {
     top: 465px;
   }
   .screen .youplay {
+    display: none;
+    left: 130px;
+    top: 610px;
+  }
+  .screen .youplay-1 {
+    display: block;
     left: 130px;
     top: 610px;
   }
