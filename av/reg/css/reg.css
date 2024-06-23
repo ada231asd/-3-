@@ -220,4 +220,54 @@ button {
   height: 103px;
   top: 0;
   left: 3px;
+}
+
+#log {
+  position: relative;
+  top: 470px;
+  left: 800px;
+}
+
+#pas {
+  position: relative;
+  top: 475px;
+  left: 800px;
+}
+
+#copy {
+  position: relative;
+  top: 480px;
+  left: 800px;
+}
+
+#em {
+  position: relative;
+  top: 485px;
+  left: 800px;
+}
+
+#th {
+  position: relative;
+  top: 490px;
+  left: 800px;
+}
+
+input[type=submit] {
+  position: relative;
+  top: 495px;
+  left: 933px;
+}
+
+#av {
+  position: relative;
+  top: 446px;
+  left: 817px;
+  font-size: 24px;
+  color: white;
+}
+
+.g-recaptcha {
+  left: 185px;
+  position: relative;
+  top: -172px;
 }/*# sourceMappingURL=reg.css.map */
