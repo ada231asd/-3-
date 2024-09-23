@@ -8,7 +8,7 @@
     <div class="screen">
       <div class="overlap-wrapper">
         <div class="overlap">
-        <form method="post" action="http://localhost/курсач/register.php">
+        <form method="post" action="http://localhost/курсач/php/register.php">
       <input id ="log" type="text" name="login" placeholder="Логин" required><br>
       <input id ="pas"  type="password" name="password" placeholder="Пароль" required><br>
   <input id="copy" type="password" name="confirm_password" placeholder="Повторите пароль" required><br>

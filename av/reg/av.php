@@ -9,7 +9,7 @@
   <body>
     <div class="screen">
       <div class="overlap-wrapper">
-        <form action="http://localhost/курсач/login.php" method="post" class="overlap">
+        <form action="http://localhost/курсач/php/login.php" method="post" class="overlap">
           <div class="content-wrapper"></div> 
           <div class="div"></div>
           <input class="rectangle" id="login" name="login" type="text" placeholder="Логин" required>
